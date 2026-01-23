@@ -1,0 +1,54 @@
+# Binaries
+gumloop
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Go build/test artifacts
+*.test
+*.out
+cover.html
+coverage.txt
+
+# Dependency directories
+vendor/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-project
+*.sublime-workspace
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+
+# Claude Code local settings
+.claude/settings.local.json
+
+# gumloop session memory (local state, not code)
+.gumloop-memory.yaml
+
+# gumloop project config (user-specific settings)
+.gumloop.yaml
+
+# Development planning docs (not part of the release)
+IMPLEMENTATION_PLAN.md
+SPEC.md
+references/beads-integration-plan.md
+
+# Environment / secrets
+.env
+.env.*
